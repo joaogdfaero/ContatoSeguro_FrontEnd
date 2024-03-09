@@ -23,7 +23,7 @@ Após uma análise geral do código, a primeira etapa para identificar bugs foi 
 
 Após identificar e listar os bugs, a correção dos mesmos foi relativamente simples.
 1) HTML: remove a tag "required" do campo.
-2) CSS: cria um estilo centralizado para a logo.
+2) CSS: [cria um estilo centralizado para a logo.](https://github.com/joaogdfaero/ContatoSeguro_FrontEnd/commit/a0583eef44ae2b186271f107a259b6c781db221b)
 3) JS: função edit atualiza os campos com o valor incorreto.
 4) Delete: implmenta o método delete utilizando a método "splice".
 
