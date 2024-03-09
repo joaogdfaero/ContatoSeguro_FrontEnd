@@ -21,5 +21,5 @@ TASKS:
 
 - [x] Bug no HTML: cidade não é obrigatória.
 - [x] Bug no CSS: centraliza a logo.
-- [ ] Bug no JS
-- [x] Método de remoção (Delete)
+- [x] Bug no JS: problema no método de edição.
+- [x] Feature: Método de remoção (Delete).
