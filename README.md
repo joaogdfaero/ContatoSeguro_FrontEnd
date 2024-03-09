@@ -15,8 +15,6 @@ Além disso, você deve implementar o método de remoção (localizado na classe
 Serão avaliadas suas capacidades de leitura de código e resolução de problemas. Não se preocupe caso não consiga terminar tudo, nos envie o teste mesmo assim, destacando, logo abaixo, suas principais dificuldades e como fez para resolver os problemas.
 
 # Resposta do participante
-_Responda aqui quais foram suas dificuldades e como fez para encontrar e resolver os problemas ao enviar a solução_
-
 Após uma análise geral do código, a primeira etapa para identificar bugs foi testar o sistema e suas funcionalidades. Fazendo isso, identificou-se os seguintes bugs levando em conta os requisitos do projeto:
 1) HTML: campo cidade não é obrigatório.
 2) CSS: logo não está centralizada.
@@ -29,9 +27,8 @@ Após identificar e listar os bugs, a correção dos mesmos foi relativamente si
 3) JS: função edit atualiza os campos com o valor incorreto.
 4) Delete: implmenta o método delete utilizando a método "splice".
 
-Observações:
+OBS:
 - O método delete pode ser aprimorado para exibir uma mensagem de confirmação ao usuário antes de remover o objeto.
-- O código pode ser melhorado para evitar a repetição de código, por exemplo, usando funções para formatar os campos de entrada de dados.
 
 Links Úteis utilizados na solução:
 - Documentação do localStorage: https://developer.mozilla.org/pt-BR/docs/Web/API/Window/localStorage
