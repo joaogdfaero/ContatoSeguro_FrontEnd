@@ -16,3 +16,10 @@ Serão avaliadas suas capacidades de leitura de código e resolução de problem
 
 # Resposta do participante
 _Responda aqui quais foram suas dificuldades e como fez para encontrar e resolver os problemas ao enviar a solução_
+
+TASKS:
+
+- [ ] Bug no HTML
+- [x] Bug no CSS
+- [ ] Bug no JS
+- [ ] Método de remoção
