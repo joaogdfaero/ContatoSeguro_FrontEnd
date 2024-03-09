@@ -19,7 +19,7 @@ _Responda aqui quais foram suas dificuldades e como fez para encontrar e resolve
 
 TASKS:
 
-- [ ] Bug no HTML
-- [x] Bug no CSS
+- [x] Bug no HTML: cidade não é obrigatória.
+- [x] Bug no CSS: centraliza a logo.
 - [ ] Bug no JS
 - [ ] Método de remoção
