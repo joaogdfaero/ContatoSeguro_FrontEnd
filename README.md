@@ -17,9 +17,17 @@ Serão avaliadas suas capacidades de leitura de código e resolução de problem
 # Resposta do participante
 _Responda aqui quais foram suas dificuldades e como fez para encontrar e resolver os problemas ao enviar a solução_
 
-Após uma análise geral do código, a próxima etapa para identificar bugs foi testar o sistema e suas funcionalidades. Fazendo isso, identificou-se o bug no HTML (o campo cidade estava como obrigatório)
-e também notou-se que o método de edição não funcionava corretamente, trocando os campos editados pelo próprio nome do campo. Comparando a página do CRUD com o arquivo layout.jpg também notou-se que a logo não estava centralizada. 
-Após identificar e listar os bugs, a correção dos mesmos foi relativamente simples. 
+Após uma análise geral do código, a primeira etapa para identificar bugs foi testar o sistema e suas funcionalidades. Fazendo isso, identificou-se os seguintes bugs levando em conta os requisitos do projeto:
+1) HTML: campo cidade não é obrigatório.
+2) CSS: logo não está centralizada.
+3) JS: problema no método de edição, não funciona corretamente.
+4) Delete: método delete não foi implementado.
+
+Após identificar e listar os bugs, a correção dos mesmos foi relativamente simples.
+1) HTML: remove a tag "required" do campo.
+2) CSS: cria um estilo centralizado para a logo.
+3) JS: função edit atualiza os campos com o valor incorreto.
+4) Delete: implmenta o método delete utilizando a método "splice".
 
 Observações:
 - O método delete pode ser aprimorado para exibir uma mensagem de confirmação ao usuário antes de remover o objeto.
@@ -29,8 +37,3 @@ Links Úteis utilizados na solução:
 - Documentação do localStorage: https://developer.mozilla.org/pt-BR/docs/Web/API/Window/localStorage
 - Método splice: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/splice 
 
-TASKS:
-- [x] Bug no HTML: cidade não é obrigatória.
-- [x] Bug no CSS: centraliza a logo.
-- [x] Bug no JS: problema no método de edição.
-- [x] Feature: Método de remoção (Delete).
